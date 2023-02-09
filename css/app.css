@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.barra-grigli{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#num-griglia{
+    text-align: center;
+    font-size: 25px;
+}
+
+#btn-griglia{
+    font-size: 25px;
+    width: 100px;
+}
+
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.griglia > *{
+    border: 2px solid black;
+    aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 24px;
+}
